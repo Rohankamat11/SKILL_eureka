@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 1350px) and (min-width: 500px)" href="tab.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="phone.css">
+	<title>Register & Pay</title>
+</head>
+<body>
+    <div id="subs">
+  <form method="post" autocomplete="off" name="google-sheet">
+  	<center>
+        <h1 class="buynow">Register Now</h1>
+
+       
+            <form id="myForm">
+                <input class="regiinput" type="text" name="Name" placeholder="Enter your Name">
+                <br>
+                <input class="regiinput" type="text" name="Phone No." placeholder="Enter your Phone No.">
+                <br>
+                <input class="regiinput" type="email" name="Email" placeholder="Enter your E-mail">
+                <br>
+               
+                <select name="Course">
+                    <option value="Select a Course">Select a Course</option>
+                    <option value="Full Arduino">Full Arduino</option>
+                    <option value="C programming">C programming</option>
+                    <option value="Web development">Web development</option>
+                </select>
+                <button onclick="window.location.href='index.html'" class="btn">Pay Now</button>
+                <input class="btn" type="submit" name="submit" value="Save"/>
+               
+            </form>
+
+        
+         
+    </center>
+  </form>
+</div>
+  <script type="text/javascript">
+
+
+	  const scriptURL = 'https://script.google.com/macros/s/AKfycbwnjxGQjIswMrYtB_7B7s4crWMBkvDXaHU_u5dw4SA5awQs_upBCLM7vBBthTLcZ7Q/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("You have successfully submitted."))
+                .catch(error => console.error('Error!', error.message))
+            })
+  </script>
+</body>
+</html>

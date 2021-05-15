@@ -142,6 +142,7 @@ html{
 .para{
     font-family: cursive;
     color: white;
+    font-size: 19px;
     padding: 0px 15px 15px 15px; 
     margin-right: 200px;
 }

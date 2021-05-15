@@ -101,7 +101,8 @@ html{
 }
 
 .input{
-    color: white;
+    background: white;
+    color: black;
     text-align: center;
     margin-top: 20px;
    padding: 10px;

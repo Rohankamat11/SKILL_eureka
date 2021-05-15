@@ -50,11 +50,27 @@
 }
   .para{
       margin-right: 50px;
+      font-size: 18px;
+      text-shadow: 2px 2px black;
   }
 
   .notes{
       flex-direction: column;
   }
+
+  
+body::before{
+    content: "";
+    position: absolute;
+    background-image: url('pexels-pixabay-355904.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height:250%;
+    z-index: -1;
+    opacity: 0.89;
+}
   
   .links{
       font-size: 15px;

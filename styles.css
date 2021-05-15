@@ -9,7 +9,7 @@ body{
 body::before{
     content: "";
     position: absolute;
-    background-image: url('pexels-pixabay-355904.jpg');
+    background-image: url('pexels-pixabay-355904-min.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

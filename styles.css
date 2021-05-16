@@ -220,7 +220,7 @@ html{
 
 #subs select option{
     color: black;
-    
+    font-size: 18px;
 }
 
 .notes{

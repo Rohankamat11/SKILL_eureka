@@ -101,6 +101,7 @@ html{
 }
 
 .input{
+    font-size: 18px;
     background: white;
     color: black;
     text-align: center;
@@ -116,6 +117,7 @@ html{
 }
 
 .btn{
+    font-size: 18px;
     width: 40%;
     border: none;
     outline: none;
@@ -144,7 +146,7 @@ html{
 .para{
     font-family: cursive;
     color: white;
-    font-size: 19px;
+    font-size: 25px;
     font-weight: bolder;
     padding: 0px 15px 15px 15px; 
     margin-right: 200px;
@@ -187,6 +189,7 @@ html{
 }
 
 .regiinput{
+    font-size: 18px;
     text-align: center;
     margin-top: 20px;
    padding: 10px;

@@ -15,12 +15,7 @@ html{
     padding: 20px;
 }
 
-a{  font-size: 20px;
-    text-decoration: none;
-    font-family: 'Dancing Script', cursive;
-    color: white;
-    font-weight: bolder;
-}
+
 
 th{
     width: 600px;

@@ -89,7 +89,7 @@ html{
     color: white;
     margin-bottom: 20px;
 }
-#phone{
+.phone{
 text-align: center;
     font-size: 40px;
     font-family: cursive;

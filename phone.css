@@ -49,6 +49,7 @@ font-size: 23px;
 
 .input{
     width: 100%;
+   margin-right: 15px;
 }
 
 .topic{
@@ -73,7 +74,7 @@ body::before{
     background-size: cover;
     background-attachment: fixed;
     width:120%;
-    height:275%;
+    height:300%;
     z-index: -1;
     opacity: 0.89;
 }

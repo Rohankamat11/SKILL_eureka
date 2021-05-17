@@ -73,7 +73,7 @@ body::before{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width:120%;
+    width:105%;
     height:300%;
     z-index: -1;
     opacity: 0.89;

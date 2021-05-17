@@ -90,8 +90,16 @@ html{
     margin-bottom: 20px;
 }
 
- .phone{
+ #phone{
 text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: white;
+    margin-bottom: 20px;
+     font-weight: bolder;
+}
+#Or{
+  text-align: center;
     font-size: 40px;
     font-family: cursive;
     color: white;

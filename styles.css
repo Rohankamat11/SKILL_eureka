@@ -220,6 +220,21 @@ text-align: center;
     color: white;
 }
 
+.regiinput2{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+   padding: 10px;
+    width: 106%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    font-family: cursive;
+    background: transparent;
+    color: white;
+}
+
 #subs select{
     font-size: 18px;
     text-align: center;

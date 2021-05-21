@@ -207,14 +207,14 @@ text-align: center;
 
 .regiinput{
     font-size: 18px;
-    text-align: center;
+    
     margin-top: 20px;
    padding: 10px;
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 10px;
-    box-shadow: 0 0 10px white;
+    border: 0;
+    border-bottom: 2px solid white;
     font-family: cursive;
     background: transparent;
     color: white;
@@ -235,20 +235,21 @@ text-align: center;
     color: white;
 }
 
+
 #subs select{
     font-size: 18px;
     text-align: center;
     margin-top: 20px;
    padding: 10px;
     width: 107%;
-    border: none;
+    border: 0;
     outline: none;
-    border-radius: 10px;
-    box-shadow: 0 0 10px white;
+    border-bottom: 2px solid white;
     font-family: cursive;
     background: transparent;
     color: white;
 }
+
 
 #subs select option{
     color: black;
